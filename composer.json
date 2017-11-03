@@ -1,0 +1,28 @@
+{
+    "name": "silve/formation-php",
+
+
+
+    "autoload": {
+
+        "psr-4": {
+            "ASCII\\": "src/"
+        }
+    },
+    
+    "minimum-stability":"dev",
+    "require": {
+        "doctrine/orm": "~2.5"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "dev-master"
+    },
+    
+     "autoload-dev": {
+
+        "psr-4": {
+            "ASCII\\Test\\": "test/"
+        }
+    }
+
+}

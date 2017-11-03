@@ -1,0 +1,7 @@
+.settings/
+vendor/
+.buildpath
+.project
+web/node_modules/
+corbeille/
+composer.lock
